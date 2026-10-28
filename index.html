@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lunex Linux Installer</title>
+</head>
+<body>
+
+    <h1>Lunex Linux Installer</h1>
+    <p>Automated script to install, update, and manage Lunex on Linux via Wine.</p>
+
+    <hr>
+
+    <h2>Install / Update</h2>
+    <p>Run this command in your terminal:</p>
+    <pre><code>bash &lt;(curl -sSL https://lukebrotha.github.io/Lunex-OL/lunex.sh)</code></pre>
+    <button onclick="navigator.clipboard.writeText('bash <(curl -sSL https://lukebrotha.github.io/Lunex-OL/lunex.sh)')">Copy Install Command</button>
+
+    <br><br>
+
+    <h2>Uninstall</h2>
+    <p>To remove Lunex and clean up files:</p>
+    <pre><code>REMOVE=1 bash &lt;(curl -sSL https://lukebrotha.github.io/Lunex-OL/lunex.sh)</code></pre>
+    <button onclick="navigator.clipboard.writeText('REMOVE=1 bash <(curl -sSL https://lukebrotha.github.io/Lunex-OL/lunex.sh)')">Copy Uninstall Command</button>
+
+    <hr>
+
+    <p><a href="https://github.com/lukebrotha/Lunex-OL" target="_blank">GitHub Repository</a></p>
+
+</body>
+</html>
